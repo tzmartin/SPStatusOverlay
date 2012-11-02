@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: Status Bar Overlay
+author: Curtis Duhn
+license: MIT
+copyright: Copyright (c) 2012 by Semantic Press
+
+
+# these should not be edited
+name: statusbaroverlay
+moduleid: com.semanticpress.statusbaroverlay
+guid: 17530cce-68cc-43ab-9f32-ad1c7b303fb2
+platform: iphone
+minsdk: 1.8.0

@@ -1,0 +1,8 @@
+iOS/tmp
+iOS/bin
+iOS/build
+iOS/*.zip
+tmp
+bin
+build
+*.zip

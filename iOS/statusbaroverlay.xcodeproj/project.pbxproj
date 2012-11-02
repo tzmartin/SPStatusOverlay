@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+		61E21738147B14870095F304 /* Build & Install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 61E2173C147B14870095F304 /* Build configuration list for PBXAggregateTarget "Build & Install" */;
+			buildPhases = (
+				61E2173B147B14870095F304 /* ShellScript */,
+			);
+			dependencies = (
+				61E21739147B14870095F304 /* PBXTargetDependency */,
+			);
+			name = "Build & Install";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* ComSemanticpressStatusbaroverlayModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComSemanticpressStatusbaroverlayModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComSemanticpressStatusbaroverlayModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComSemanticpressStatusbaroverlayModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComSemanticpressStatusbaroverlayModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComSemanticpressStatusbaroverlayModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComSemanticpressStatusbaroverlayModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComSemanticpressStatusbaroverlayModuleAssets.m */; };
+		61E21761147B737A0095F304 /* MTStatusBarOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E2175F147B737A0095F304 /* MTStatusBarOverlay.h */; };
+		61E21762147B737A0095F304 /* MTStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E21760147B737A0095F304 /* MTStatusBarOverlay.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		61E21765147B77800095F304 /* ComSemanticpressStatusbaroverlayOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E21763147B77800095F304 /* ComSemanticpressStatusbaroverlayOverlayView.h */; };
+		61E21766147B77800095F304 /* ComSemanticpressStatusbaroverlayOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E21764147B77800095F304 /* ComSemanticpressStatusbaroverlayOverlayView.m */; };
+		61E21769147B77B40095F304 /* ComSemanticpressStatusbaroverlayOverlayViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E21767147B77B40095F304 /* ComSemanticpressStatusbaroverlayOverlayViewProxy.h */; };
+		61E2176A147B77B40095F304 /* ComSemanticpressStatusbaroverlayOverlayViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E21768147B77B40095F304 /* ComSemanticpressStatusbaroverlayOverlayViewProxy.m */; };
+		AA747D9F0F9514B9006C5449 /* ComSemanticpressStatusbaroverlay_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComSemanticpressStatusbaroverlay_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = statusbaroverlay;
+		};
+		61E2173A147B14870095F304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = statusbaroverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* ComSemanticpressStatusbaroverlayModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComSemanticpressStatusbaroverlayModule.h; path = Classes/ComSemanticpressStatusbaroverlayModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComSemanticpressStatusbaroverlayModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComSemanticpressStatusbaroverlayModule.m; path = Classes/ComSemanticpressStatusbaroverlayModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* ComSemanticpressStatusbaroverlayModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComSemanticpressStatusbaroverlayModuleAssets.h; path = Classes/ComSemanticpressStatusbaroverlayModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComSemanticpressStatusbaroverlayModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComSemanticpressStatusbaroverlayModuleAssets.m; path = Classes/ComSemanticpressStatusbaroverlayModuleAssets.m; sourceTree = "<group>"; };
+		61E2175F147B737A0095F304 /* MTStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTStatusBarOverlay.h; path = MTStatusBarOverlay/MTStatusBarOverlay.h; sourceTree = "<group>"; };
+		61E21760147B737A0095F304 /* MTStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTStatusBarOverlay.m; path = MTStatusBarOverlay/MTStatusBarOverlay.m; sourceTree = "<group>"; };
+		61E21763147B77800095F304 /* ComSemanticpressStatusbaroverlayOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComSemanticpressStatusbaroverlayOverlayView.h; path = Classes/ComSemanticpressStatusbaroverlayOverlayView.h; sourceTree = "<group>"; };
+		61E21764147B77800095F304 /* ComSemanticpressStatusbaroverlayOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComSemanticpressStatusbaroverlayOverlayView.m; path = Classes/ComSemanticpressStatusbaroverlayOverlayView.m; sourceTree = "<group>"; };
+		61E21767147B77B40095F304 /* ComSemanticpressStatusbaroverlayOverlayViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComSemanticpressStatusbaroverlayOverlayViewProxy.h; path = Classes/ComSemanticpressStatusbaroverlayOverlayViewProxy.h; sourceTree = "<group>"; };
+		61E21768147B77B40095F304 /* ComSemanticpressStatusbaroverlayOverlayViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComSemanticpressStatusbaroverlayOverlayViewProxy.m; path = Classes/ComSemanticpressStatusbaroverlayOverlayViewProxy.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComSemanticpressStatusbaroverlay_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComSemanticpressStatusbaroverlay_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libComSemanticpressStatusbaroverlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComSemanticpressStatusbaroverlay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libComSemanticpressStatusbaroverlay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* statusbaroverlay */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = statusbaroverlay;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				61E2175D147B73430095F304 /* MTStatusBarOverlay */,
+				24DE9E0F11C5FE74003F90F6 /* ComSemanticpressStatusbaroverlayModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComSemanticpressStatusbaroverlayModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComSemanticpressStatusbaroverlayModule.h */,
+				24DD6CF81134B3F500162E58 /* ComSemanticpressStatusbaroverlayModule.m */,
+				61E21763147B77800095F304 /* ComSemanticpressStatusbaroverlayOverlayView.h */,
+				61E21764147B77800095F304 /* ComSemanticpressStatusbaroverlayOverlayView.m */,
+				61E21767147B77B40095F304 /* ComSemanticpressStatusbaroverlayOverlayViewProxy.h */,
+				61E21768147B77B40095F304 /* ComSemanticpressStatusbaroverlayOverlayViewProxy.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ComSemanticpressStatusbaroverlay_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		61E2175D147B73430095F304 /* MTStatusBarOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				61E2175F147B737A0095F304 /* MTStatusBarOverlay.h */,
+				61E21760147B737A0095F304 /* MTStatusBarOverlay.m */,
+			);
+			name = MTStatusBarOverlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* ComSemanticpressStatusbaroverlay_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* ComSemanticpressStatusbaroverlayModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComSemanticpressStatusbaroverlayModuleAssets.h in Headers */,
+				61E21761147B737A0095F304 /* MTStatusBarOverlay.h in Headers */,
+				61E21765147B77800095F304 /* ComSemanticpressStatusbaroverlayOverlayView.h in Headers */,
+				61E21769147B77B40095F304 /* ComSemanticpressStatusbaroverlayOverlayViewProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* statusbaroverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "statusbaroverlay" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = statusbaroverlay;
+			productName = statusbaroverlay;
+			productReference = D2AAC07E0554694100DB518D /* libComSemanticpressStatusbaroverlay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "statusbaroverlay" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* statusbaroverlay */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* statusbaroverlay */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+				61E21738147B14870095F304 /* Build & Install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+		61E2173B147B14870095F304 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${PROJECT_DIR}\"\n./build.py\ncd *demo\nunzip -o ../*.zip\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* ComSemanticpressStatusbaroverlayModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComSemanticpressStatusbaroverlayModuleAssets.m in Sources */,
+				61E21762147B737A0095F304 /* MTStatusBarOverlay.m in Sources */,
+				61E21766147B77800095F304 /* ComSemanticpressStatusbaroverlayOverlayView.m in Sources */,
+				61E2176A147B77B40095F304 /* ComSemanticpressStatusbaroverlayOverlayViewProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* statusbaroverlay */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+		61E21739147B14870095F304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* statusbaroverlay */;
+			targetProxy = 61E2173A147B14870095F304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/ComSemanticpressStatusbaroverlay.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComSemanticpressStatusbaroverlay_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = ComSemanticpressStatusbaroverlay;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/ComSemanticpressStatusbaroverlay.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComSemanticpressStatusbaroverlay_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = ComSemanticpressStatusbaroverlay;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					armv7,
+					armv6,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					armv7,
+					armv6,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		61E2173D147B14870095F304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & Test copy";
+			};
+			name = Debug;
+		};
+		61E2173E147B14870095F304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & Test copy";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "statusbaroverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "statusbaroverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E2173C147B14870095F304 /* Build configuration list for PBXAggregateTarget "Build & Install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E2173D147B14870095F304 /* Debug */,
+				61E2173E147B14870095F304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
