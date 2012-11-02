@@ -1,4 +1,5 @@
-.DS_STORE
+.DS_Store
+.gitignore
 iOS/tmp
 iOS/bin
 iOS/build
