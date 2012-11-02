@@ -2,9 +2,9 @@
 
 ## Description
 
-This module provides a Titanium proxy view object that overlays the status bar.
+This module provides a Titanium proxy view object that overlays the iOS status bar using the [MTStatusBarOverlay](https://github.com/myell0w/MTStatusBarOverlay) project.  You may have seen this UI pattern in Apps like Reeder, Evernote and Google Mobile App.
 
-![Status Bar Overlay Example](https://img.skitch.com/20120704-epddjrx4jmtewbby6gxdd1wuf8.jpg)
+![Status Bar Overlay Example](http://img.skitch.com/20120704-epddjrx4jmtewbby6gxdd1wuf8.jpg)
 
 ## Accessing the statusbaroverlay Module
 
@@ -49,14 +49,35 @@ using a normal gray or black opaque status bar.  If you show or hide the status 
 ## Authors
 
 Curtis Duhn
-curtis.duhn@semanticpress.com
+https://twitter.com/cduhn
 
 Terry Martin
-martin@semanticpress.com
 http://twitter.com/tzmartin
 
 ## License
 
-Copyright 2011 Semantic Press, Inc.
-http://semanticpress.com
+The MIT License
+
+Copyright (c) 2011 Semantic Press, Inc.
+
+Permission is hereby granted, free of charge, 
+to any person obtaining a copy of this software and 
+associated documentation files (the "Software"), to 
+deal in the Software without restriction, including 
+without limitation the rights to use, copy, modify, 
+merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom 
+the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice 
+shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR 
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
